@@ -9,4 +9,5 @@ second semester projcet. 2D game contra.
 //The project is not fully complete compared to the original game but the main ingriendents for creating the 2D games are already used. 
 
 // usage of pointers and polymorphism 
-
+// the framework is not written by me
+// I wrote the application part
