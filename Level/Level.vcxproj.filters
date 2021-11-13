@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Framework files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Game files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game files\Enemy">
+      <UniqueIdentifier>{a5bc6d6f-e4bd-4d01-8926-23a7573c6167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game files\Avatar">
+      <UniqueIdentifier>{e529d75b-cd99-466c-b2df-c291695aa45a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game files\Bullet">
+      <UniqueIdentifier>{2b17cb06-a60b-4185-a57e-a955ebd8b89e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game files\Level">
+      <UniqueIdentifier>{f2ed3096-61f0-469b-8a65-b929b43b0761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game files\PickUp">
+      <UniqueIdentifier>{796aa439-5a64-4835-b3ff-0a9c78357467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game files\HUD">
+      <UniqueIdentifier>{31cd9d7c-e1f0-4465-afe7-aa883a0c9666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game files\INTRO">
+      <UniqueIdentifier>{1cdb7e74-ce3b-4e65-a672-2711dad8c73a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game files\Bridge">
+      <UniqueIdentifier>{9f5e64ce-80cc-46ea-a5c8-5e916b8d65a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game files\Score">
+      <UniqueIdentifier>{4feb3e2a-51f2-4246-b20d-4893e7e66faa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Framework files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Framework files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2x3.cpp">
+      <Filter>Framework files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Framework files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEffect.cpp">
+      <Filter>Framework files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundStream.cpp">
+      <Filter>Framework files</Filter>
+    </ClCompile>
+    <ClCompile Include="structs.cpp">
+      <Filter>Framework files</Filter>
+    </ClCompile>
+    <ClCompile Include="SVGParser.cpp">
+      <Filter>Framework files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Framework files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Framework files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2f.cpp">
+      <Filter>Framework files</Filter>
+    </ClCompile>
+    <ClCompile Include="Avatar.cpp">
+      <Filter>Game files\Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Game files\Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyTank.cpp">
+      <Filter>Game files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyRunning.cpp">
+      <Filter>Game files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Game files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="PickUp.cpp">
+      <Filter>Game files\PickUp</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Game files\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Hud.cpp">
+      <Filter>Game files\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Intro.cpp">
+      <Filter>Game files\INTRO</Filter>
+    </ClCompile>
+    <ClCompile Include="Bridge.cpp">
+      <Filter>Game files\Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBoss.cpp">
+      <Filter>Game files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>Game files\Score</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Framework files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Framework files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2x3.h">
+      <Filter>Framework files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEffect.h">
+      <Filter>Framework files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundStream.h">
+      <Filter>Framework files</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Framework files</Filter>
+    </ClInclude>
+    <ClInclude Include="SVGParser.h">
+      <Filter>Framework files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Framework files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Framework files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2f.h">
+      <Filter>Framework files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game files</Filter>
+    </ClInclude>
+    <ClInclude Include="Avatar.h">
+      <Filter>Game files\Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Game files\Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyTank.h">
+      <Filter>Game files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyRunning.h">
+      <Filter>Game files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Game files\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="PickUp.h">
+      <Filter>Game files\PickUp</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Game files\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Hud.h">
+      <Filter>Game files\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Intro.h">
+      <Filter>Game files\INTRO</Filter>
+    </ClInclude>
+    <ClInclude Include="Bridge.h">
+      <Filter>Game files\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBoss.h">
+      <Filter>Game files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>Game files\Score</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
